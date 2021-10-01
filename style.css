@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+
+body {
+    font-family: "Poppins", sans-serif;
+    color: #fada06;
+    min-height: 400px;
+    background-image: url(https://wallpaperaccess.com/full/1423632.jpg);
+    background-color: #efdef0;
+    background-size: cover;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    padding-bottom: 20vh;
+  }
+  
+  .container {
+    text-align: center;
+    padding: 20px;
+    height: 100vh;
+  }
+  
+  .page-title {
+    color: #4B346B;
+    font-size: 50px;
+    margin:0 0 5px;
+    text-shadow: 2px 2px 2px #ad81eb;
+  }
+  
+  .page-subtitle {
+    color: #ad81eb;
+    font-size: 30px;
+    margin-top: 5px;
+    text-shadow: 0.9px 0.9px 0.9px #4B346B;
+  }
+  
+  .page-logo {
+    margin-top: 5%;
+    width: 200px;
+  }
+  
+  .alura-logo {
+    width: 40px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+  
+  main form {
+    margin-top: 20px;
+    width: 110%;
+    height: 48vh;
+    background-color: #4B346B;
+    box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.4) inset 0px 4px 4px
+      rgba(0, 0, 0, 0.25);
+    border-radius: 18px;
+    padding: 2%;
+    align-items: center;
+    place-content: center;
+  }
+  
+  .center {
+    margin: 20px;
+    padding: 100px;
+    display: grid;
+    place-content: center;
+    height: 48vh;
+  }
+  
+  input {
+    font-family: "Poppins";
+    margin: 12px;
+    padding: 6px;
+    border-radius: 12px;
+    border: 0;
+    outline: 0;
+    box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.25);
+  }
+  
+  input:focus {
+    box-shadow: inset 1px 4px 7px rgba(0, 0, 0, 0.5);
+  }
+  
+  label {
+    color: #efdef0;
+  }
+  
+  main form button {
+    font-family: "Poppins";  
+    background-color: #c09af7;
+    margin-top: 12px;
+    padding: 4px 8px;
+    border-radius: 12px;
+  }
+  
+  main form button:focus {
+    box-shadow: inset 1px 4px 7px rgba(0, 0, 0, 0.5);
+  }
+  main form button:hover {
+    font-family: "Poppins";  
+    background: #ffff;
+    color: #77287b;
+  }
+  
+  h2 {
+    text-align: center;
+    font-family: "Poppins";
+    color: #fada06;
+    font-size: 50px;
+  }

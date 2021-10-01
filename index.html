@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de moeda</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="page-title">
+          Conversor de moedas
+        </h1>
+        <p class="page-subtitle">
+          Descubra os valores em dolares U$
+        </p>
+        <main class="center">
+            <form onsubmit="return false">
+            <label for="moeda">Insira o valor em dolar U$</label>
+            <br>
+            <input type="number" id="valor" size="2">
+            <br>
+            <button onclick="ConverterReal()">Converter para Real</button>
+      
+            <br>
+            <button onclick="ConverterWon()">Converter para Won</button>
+            <br>
+            <button onclick="ConverterYen()">Converter para Yen</button>
+            <br>
+            <button onclick="ConverterYuan()">Converter para Yuan</button>
+            <br>
+            <button onclick="ConverterBitcoin()">Converter para Bitcoin</button>
+            <div id="valorConvertido">
+      
+            </div>
+            </form>
+      
+        </main>
+        <a href="https://alura.com.br/" target="_blank">
+          <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
+        </a>
+        <script src="script.js"></script>
+    
+</body>
+</html>
